@@ -1,9 +1,316 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.42;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./img/wallpaper.png);
+  box-sizing: border-box;
+  margin: 0;
+}
+* {
+  box-sizing: inherit;
+}
+.wrapper {
+  background-image:  url("./img/hero.png"), url("./img/bottom-pic.png"); 
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+.header {
+  top: 26px;
+  left: 384px;
+  height: 129px;
+  padding-top: 19px;
+  padding-bottom: 206px ;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 197px;
+  padding-top: 8px;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+}
+.menu__item {
+  display: inline-block;
+  margin-right: 51px;
+
+}
+.contacts {
+  display: inline-block;
+  vertical-align: middle;
+  top: 2px;
+  margin-left: 193px;
+  margin-top: 22px;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: right;
+}
+.contacts__workhours {
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #FF3D00;
+}
+.slogan__container {
+  width: 776px;
+  height: 197px;
+  left: 572px;
+  top: 229px;
+  left: 572px;
+  margin: 0px auto;
+  padding-bottom: 550px;
+}
+.slogan__title{
+  font-weight: 800;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  }
+  .slogan__text {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 46px;
+  }
+  .btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #ff3d00;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 18px 53px;
+    display: inline-block;
+    }
+    .slogan__btn-wrapper {
+      text-align: center;
+    }
+
+    .main-services {
+      margin-bottom: 191px;
+      }
+
+    .main-services__list {
+      padding-left: 0;
+    }
+    .main-services__item {
+      display: inline-block;
+      height: 480px;
+      max-width: 370px;
+      background: white;
+      vertical-align: middle;
+      margin-right: 20px;
+      border-radius: 5px;
+    }
+    .main-services__item:nth-child(2) {
+      border: 5px solid #CCCCCC;
+    }
+
+    .main-services__item:last-child {
+      margin-right: 0px;
+    }
+
+    .main-services__icon {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .main-services__title {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: black;
+      margin-left: 20px;
+      margin-bottom: 0;
+      }
+    .main-services__feature {
+      display: inline-block;
+      width: 137px;
+      margin-right: 10px;
+    }
+    .main-services__features {
+      max-height: 100px;
+      font-size: 16px;
+      line-height: 125%;
+      color: #666666;
+      padding: 20px 20px;
+    }
+    .main-services__features b {
+      color: black;
+    }
+
+    .main-services__description {
+      max-width: 330px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #666666;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      }
+      .main__services-wrapper {
+        text-align: center;
+      }
+
+      .main-services__btn:hover {
+        background:white;
+        color:#FF5500;
+        border: 2px solid #FF5500;
+      }
+      .section-title {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+       } 
+       .news__container {
+         margin-bottom: 132px;
+       }
+       .news__list {
+         padding-left: 0;
+         margin-bottom: 63px;
+       }
+       .news__item {
+         display: inline-block;
+         width: 570px;
+         vertical-align: top;
+         position: relative
+       }
+       .news__pic {
+         display: block;
+         width: 97%;
+         height: 100%;
+         object-fit: cover;
+
+       }
+       .news__text {
+         position: absolute;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         padding: 20px 30px;
+         min-height: 100px;
+       }
+       .news__date {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 12px;
+       }
+
+       .news__discount {
+       font-weight: bold;
+       font-size: 24px;
+       line-height: 36px;
+       margin-bottom: 10px;
+       }
+.paginator {
+  text-align: center;
+}
+.paginator__display, .paginator__list {
+display: inline-block;
+vertical-align: middle;
+}
+.paginator__display {
+  margin-right: 25px;
+}
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.paginator__item--active .paginator__link {
+  background: #ff3d00;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+.about__container {
+width: 1139px;
+height: 552px;
+position: relative;
+margin-bottom: 90px;
+}
+
+.about__content {
+background: white;
+width: 785px;
+height: 455px;
+color: black;
+position: absolute;
+right: 0;
+bottom: 0;
+border-radius: 5px;
+text-align: left;
+}
+.about__title {
+  margin: 70px 580px 37px 81px;
+  
+}
+.about__text {
+  margin-left: 81px;
+  margin-bottom: 61px;
+}
+.about__btn {
+  margin-left: 81px;
+}
+.footer__container {
+  border-top: 1px solid #9A9A9A;
+  margin-bottom: 20px;
+}
+.menu__footer {
+  padding-left: 140px;
+}
+.networks {
+  display: inline-block;
+  margin: 0;
+  padding-left: 0;
+  width: 190px;
+  
+}
+.networks__item{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.contacts-footer {
+  display: inline-block;
+  text-align: right;
+  margin-left: 70px;
+ 
+}
+.contacts-footer__info {
+color: #9A9A9A;
+font-size: 11px;
+line-height: 20px;
+}
+.phone-footer {
+display: inline-block;
+font-size: 26px;
+line-height: 20px;
 }

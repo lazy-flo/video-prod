@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.42;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./img/wallpaper.png);
+  box-sizing: border-box;
+  margin: 0;
+}
+.wrapper {
+  background-image:  url("./img/hero.png"), url("./img/bottom-pic.png"); 
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+
+}
+   .header__container {
+  max-width: 1142px;
+  height: 129px;
+  margin: 0px auto;
+  padding-bottom: 100px;
+
+   }
+  .header__top1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+  }
+  .header__top2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+    margin-top: 47px;
+  }
+  .header__top3 {
+    display: inline-block;
+    vertical-align: right;
+    margin-left: 80px;
+    vertical-align: middle;
+
+  }
+.menu__item {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 54px;
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 19px;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+.phone-number {
+font-size: 26px;
+line-height: 35px;
+}
+.contacts__workhours {
+  color:orangered;
+}
+.slogan__container {
+  width: 776px;
+  height: 197px;
+  left: 572px;
+  top: 229px;
+  left: 572px;
+  margin: 0px auto;
+}
+.slogan__title{
+top: 234px;
+font-weight: 800;
+font-size: 72px;
+text-align: center;
+margin: 0 auto;
+}
+.slogan__text {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1px;
+
+}
+.btn {
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #fff;
+background-color: #ff3d00;
+text-decoration: none;
+border-radius: 35px;
+text-align: center;
+padding: 18px 40px;
+
+}
+
+.logo__pic {
+  background:;
+}
+.header__container .menu {
+  background:;
+  }
+  .contacts,.contacts__workhours {
+    background:;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .main-services {
+  margin-bottom: 180px;
+}
+
+.main-services__item {
+  display: inline-block;
+  min-height: 360px;
+}
+.main-services__title {
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+color: black;
+margin-bottom: 50px;
+}
+.main-services__features {
+  min-height: 146px;
+  margin-bottom: 7px;
+  background: #FFFFFF;
+}
