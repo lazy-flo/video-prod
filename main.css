@@ -7,28 +7,36 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./img/wallpaper.png);
+  background: url(./img/wallpapers/wallpaper.png);
   box-sizing: border-box;
   margin: 0;
+  height: 100%;
 }
 * {
   box-sizing: inherit;
 }
 .wrapper {
-  background-image:  url("./img/hero.png"), url("./img/bottom-pic.png"); 
+  background-image:  url("./img/wallpapers/hero.png"), url("./img/wallpapers/bottom-pic.png"); 
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
+  min-height: 100%;
+}
+.wrapper__content {
+  margin-bottom: 53px;
+
 }
 .container {
-  max-width: 1170px;
+  max-width: 1140px;
   margin: 0px auto;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 .header {
-  top: 26px;
-  left: 384px;
   height: 129px;
-  padding-top: 19px;
-  padding-bottom: 206px ;
+  padding-top: 26px;
+  padding-bottom: 26px ;
 }
 
 .logo {
@@ -54,12 +62,13 @@ a {
   margin-right: 51px;
 
 }
+.menu__item:last-child {
+  margin-right: 0;
+}
 .contacts {
   display: inline-block;
   vertical-align: middle;
-  top: 2px;
-  margin-left: 193px;
-  margin-top: 22px;
+  margin-left: 238px;
   font-size: 26px;
   line-height: 35px;
   text-align: right;
@@ -71,13 +80,8 @@ a {
   color: #FF3D00;
 }
 .slogan__container {
-  width: 776px;
-  height: 197px;
-  left: 572px;
-  top: 229px;
-  left: 572px;
-  margin: 0px auto;
-  padding-bottom: 550px;
+  padding-top: 153px;
+  padding-bottom: 233px;
 }
 .slogan__title{
   font-weight: 800;
@@ -102,6 +106,7 @@ a {
     border-radius: 35px;
     padding: 18px 53px;
     display: inline-block;
+    border: 2px solid transparent;
     }
     .slogan__btn-wrapper {
       text-align: center;
@@ -116,12 +121,12 @@ a {
     }
     .main-services__item {
       display: inline-block;
-      height: 480px;
-      max-width: 370px;
+      max-width: 362px;
       background: white;
-      vertical-align: middle;
-      margin-right: 20px;
+      vertical-align: top;
+      margin-right: 22px;
       border-radius: 5px;
+      padding: 36px 22px 53px;
     }
     .main-services__item:nth-child(2) {
       border: 5px solid #CCCCCC;
@@ -140,7 +145,6 @@ a {
       font-size: 32px;
       line-height: 44px;
       color: black;
-      margin-left: 20px;
       margin-bottom: 0;
       }
     .main-services__feature {
@@ -153,7 +157,6 @@ a {
       font-size: 16px;
       line-height: 125%;
       color: #666666;
-      padding: 20px 20px;
     }
     .main-services__features b {
       color: black;
@@ -164,8 +167,6 @@ a {
       font-size: 14px;
       line-height: 22px;
       color: #666666;
-      margin-left: 20px;
-      margin-right: 20px;
       margin-bottom: 40px;
       }
       .main__services-wrapper {
@@ -175,7 +176,7 @@ a {
       .main-services__btn:hover {
         background:white;
         color:#FF5500;
-        border: 2px solid #FF5500;
+        border-color: #FF5500;
       }
       .section-title {
         font-weight: 800;
@@ -191,9 +192,13 @@ a {
        }
        .news__item {
          display: inline-block;
-         width: 570px;
+         width: 556px;
          vertical-align: top;
-         position: relative
+         position: relative;
+         margin-right: 22px;
+       }
+       .news__item:last-child {
+         margin-right: 0;
        }
        .news__pic {
          display: block;
@@ -252,33 +257,37 @@ vertical-align: middle;
 }
 .about__container {
 width: 1139px;
-height: 552px;
 position: relative;
 margin-bottom: 90px;
+text-align: right;
+}
+.about__pic {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .about__content {
 background: white;
+min-height: 455px;
 width: 785px;
-height: 455px;
 color: black;
-position: absolute;
-right: 0;
-bottom: 0;
 border-radius: 5px;
 text-align: left;
+padding: 70px 202px 66px 81px;
+display: inline-block;
+position: relative;
+margin-top: 97px;
 }
 .about__title {
-  margin: 70px 580px 37px 81px;
+  margin-bottom: 37px;
+  margin-top: 0;
   
 }
 .about__text {
-  margin-left: 81px;
   margin-bottom: 61px;
 }
-.about__btn {
-  margin-left: 81px;
-}
+
 .footer__container {
   border-top: 1px solid #9A9A9A;
   margin-bottom: 20px;
@@ -288,9 +297,7 @@ text-align: left;
 }
 .networks {
   display: inline-block;
-  margin: 0;
-  padding-left: 0;
-  width: 190px;
+  margin-left: 106px;
   
 }
 .networks__item{
