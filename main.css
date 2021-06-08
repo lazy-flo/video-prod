@@ -7,7 +7,7 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./img/wallpapers/wallpaper.png);
+  background: #17191C;
   box-sizing: border-box;
   margin: 0;
   height: 100%;
@@ -62,6 +62,9 @@ a {
   margin-right: 51px;
 
 }
+.menu__page:hover {
+color: #FF3D00;
+}
 .menu__item:last-child {
   margin-right: 0;
 }
@@ -101,13 +104,18 @@ a {
     font-size: 14px;
     line-height: 19px;
     color: #fff;
-    background-color: #ff3d00;
+    background-color: #FF5500;
     text-decoration: none;
     border-radius: 35px;
     padding: 18px 53px;
     display: inline-block;
     border: 2px solid transparent;
     }
+    .btn:hover {
+      background:#FF3D00;
+      border-color: #FF3D00;
+    }
+
     .slogan__btn-wrapper {
       text-align: center;
     }
@@ -122,13 +130,15 @@ a {
     .main-services__item {
       display: inline-block;
       max-width: 362px;
+      min-height: 476px;
       background: white;
       vertical-align: top;
       margin-right: 22px;
       border-radius: 5px;
       padding: 36px 22px 53px;
+      border: 5px solid #FFFFFF;
     }
-    .main-services__item:nth-child(2) {
+    .main-services__item:hover {
       border: 5px solid #CCCCCC;
     }
 
@@ -172,12 +182,17 @@ a {
       .main__services-wrapper {
         text-align: center;
       }
-
-      .main-services__btn:hover {
-        background:white;
-        color:#FF5500;
+      .color--btn--light {
+        background: white;
+        color: #FF5500;
         border-color: #FF5500;
       }
+      .color--btn--light:hover {
+        color: #fff;
+        background-color: #FF5500; 
+      }
+
+
       .section-title {
         font-weight: 800;
         font-size: 36px;
@@ -303,8 +318,11 @@ margin-top: 97px;
 .networks__item{
   display: inline-block;
   vertical-align: middle;
-
 }
+.networks__item:hover {
+  filter: brightness(2);
+}
+
 .contacts-footer {
   display: inline-block;
   text-align: right;
