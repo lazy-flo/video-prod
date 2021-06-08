@@ -130,7 +130,7 @@ color: #FF3D00;
     .main-services__item {
       display: inline-block;
       max-width: 362px;
-      min-height: 476px;
+      min-height: 546px;
       background: white;
       vertical-align: top;
       margin-right: 22px;
@@ -152,7 +152,7 @@ color: #FF3D00;
     }
     .main-services__title {
       font-weight: bold;
-      font-size: 32px;
+      font-size: 30px;
       line-height: 44px;
       color: black;
       margin-bottom: 0;
@@ -177,11 +177,9 @@ color: #FF3D00;
       font-size: 14px;
       line-height: 22px;
       color: #666666;
-      margin-bottom: 40px;
+      margin-bottom: 29px;
       }
-      .main__services-wrapper {
-        text-align: center;
-      }
+
       .color--btn--light {
         background: white;
         color: #FF5500;
