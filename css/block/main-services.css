@@ -1,0 +1,23 @@
+.main-services {
+  margin-bottom: 172px;
+  }
+
+.main-services__list {
+  /*padding-left: 0;*/
+  display: flex;
+  justify-content: space-between;
+}
+.main-services__item {
+  /*max-width: 362px;*/
+  width: calc(100% / 3 - 18px);
+  /*min-height: 476px;*/
+
+}
+.main-services__item:hover {
+  border: 5px solid #CCCCCC;
+}
+
+.main-services__item:last-child {
+  margin-right: 0px;
+}
+

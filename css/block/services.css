@@ -1,0 +1,26 @@
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.service {
+  display: flex;
+}
+.service__img {
+  width: 40%;
+  margin-right: 5%;
+}
+.service__desc {
+  flex: 1;
+  padding: 13px;
+}
+.service__text {
+  line-height: 29px;
+  margin-bottom: 24px
+} 
+.service__title {
+  margin-bottom: 24px;
+}
+.services__item {
+  margin-bottom: 49px;
+} 

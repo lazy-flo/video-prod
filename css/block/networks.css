@@ -1,0 +1,14 @@
+.networks {
+  display: flex;
+
+  /*display: inline-block;*/
+ /*margin-left: 111px;*/
+  
+}
+.networks__item {
+  margin-right: 10px;
+ }
+
+.networks__item:hover {
+  filter: brightness(2);
+}

@@ -1,0 +1,28 @@
+.btn {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  background-color: #FF5500;
+  text-decoration: none;
+  border-radius: 35px;
+  padding: 18px 53px;
+  display: inline-block;
+  border: 2px solid transparent;
+  }
+  .btn:hover {
+    background:#FF3D00;
+    border-color: #FF3D00;
+  }
+  .color--btn--light {
+    background: white;
+    color: #FF5500;
+    border-color: #FF5500;
+  }
+  .color--btn--light:hover {
+    color: #fff;
+    background-color: #FF5500; 
+  }
+  .btn--small {
+    padding: 18px 40px;
+  }

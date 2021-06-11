@@ -1,0 +1,29 @@
+.menu {
+  vertical-align: middle;
+ /* padding-left: 197px;*/
+  /*padding-top: 21px;*/
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+ 
+
+}
+.menu__item {
+ /* display: inline-block;*/
+  margin-right: 51px;
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+.menu__page:hover {
+color: #FF3D00;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+/*.menu__footer {
+    margin-left: 96px;
+}*/
+.menu--top {
+  margin-top: 21px;
+}

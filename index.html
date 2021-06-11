@@ -12,14 +12,14 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
           <a href="/" class="logo">
             <img src="./img/logo.png" alt="company-logo" class="logo__pic">
           </a>
-          <nav class="menu">
+          <nav class="menu menu--top">
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="/" class="menu__page">Главная</a>
@@ -41,7 +41,7 @@
       <main class="main-content">
         <section class="slogan">
           <div class="slogan__container container">
-            <h1 class="slogan__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
+            <h1 class="slogan__title title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
             <p class="slogan__text">Креативный видеопродакшн полного цикла</p>
             <div class="slogan__btn-wrapper">
               <a href="" class="btn">ПОДРОБНЕЕ</a>
@@ -51,48 +51,50 @@
         <section class="main-services">
           <div class="main-services__container container">
             <ul class="main-services__list">
-              <li class="main-services__item">
-                <img src="./img/offers/tv.png" alt="tv" class="main-services__icon">
-                <div class="main-services__text">
-                  <h3 class="main-services__title">Реклама</h3>
-                  <div class="main-services__features">
-                    <p class="main-services__feature">От <b>5</b> человек на проект</p>
-                    <p class="main-services__feature"><b>28</b> дней работы в среднем</p>
+              <li class="main-services__item offer">
+                <img src="./img/offers/tv.png" alt="tv" class="offer__icon">
+                <div class="offer__text">
+                  <h4 class="offer__title">Реклама</h4>
+                  <div class="offer__features">
+                    <p class="offer__feature">От <b>5</b> человек на проект</p>
+                    <p class="offer__feature"><b>28</b> дней работы в среднем</p>
                   </div>
-                  <p class="main-services__description">Креатив и производство рекламы, документального и
+                  <p class="offer__description">Креатив и производство рекламы, документального и
                     корпоративного контента.</p>
-                    <a href="" class="btn color--btn--light">ПОДРОБНЕЕ</a>
+                    <div class="offer-wrapper">
+                  <a href="" class="btn color--btn--light">ПОДРОБНЕЕ</a>
+                </div>
                 </div>
               </li>
-              <li class="main-services__item">
-                <img src="./img/offers/clapper.png" alt="сlapperboard" class="main-services__icon">
-                <div class="main-services__text">
-                  <h3 class="main-services__title">Видео-клип</h3>
-                  <div class="main-services__features">
-                    <p class="main-services__feature">От <b>7</b> человек на проект</p>
-                    <p class="main-services__feature"><b>21</b> дней работы в среднем</p>
+              <li class="main-services__item offer">
+                <img src="./img/offers/clapper.png" alt="сlapperboard" class="offer__icon">
+                <div class="offer__text">
+                  <h4 class="offer__title">Видео-клип</h4>
+                  <div class="offer__features">
+                    <p class="offer__feature">От <b>7</b> человек на проект</p>
+                    <p class="offer__feature"><b>21</b> дней работы в среднем</p>
                   </div>
-                  <p class="main-services__description">Вы решили представиться своим слушаелям, пополнить свой
+                  <p class="offer__description">Вы решили представиться своим слушаелям, пополнить свой
                     творческий
                     багаж качественным видео? Прекрасно!</p>
-                  <div class="main__services-wrapper">
-                    <a href="" class="main-services__btn btn">ПОДРОБНЕЕ</a>
+                  <div class="offer-wrapper">
+                    <a href="" class="offer__btn btn">ПОДРОБНЕЕ</a>
                   </div>
                 </div>
               </li>
-              <li class="main-services__item">
-                <img src="./img/offers/film.png" alt="movie-film" class="main-services__icon">
-                <div class="main-services__text">
-                  <h3 class="main-services__title">Свадьба</h3>
-                  <div class="main-services__features">
-                    <p class="main-services__feature">От <b>2</b> человек на проект</p>
-                    <p class="main-services__feature"><b>30</b> дней работы в среднем</p>
+              <li class="main-services__item offer">
+                <img src="./img/offers/film.png" alt="movie-film" class="offer__icon">
+                <div class="offer__text">
+                  <h4 class="offer__title">Свадьба</h4>
+                  <div class="offer__features">
+                    <p class="offer__feature">От <b>2</b> человек на проект</p>
+                    <p class="offer__feature"><b>30</b> дней работы в среднем</p>
                   </div>
-                  <p class="main-services__description">Получите живое видео самого счастливого дня, которое Вы
+                  <p class="offer__description">Получите живое видео самого счастливого дня, которое Вы
                     будете
                     пересматривать снова и снова.</p>
-                  <div class="main__services-wrapper">
-                    <a href="" class= "btn color--btn--light">ПОДРОБНЕЕ</a>
+                  <div class="offer-wrapper">
+                    <a href="" class="btn color--btn--light">ПОДРОБНЕЕ</a>
                   </div>
                 </div>
 
@@ -102,24 +104,24 @@
         </section>
         <section class="news">
           <div class="news__container container">
-            <h2 class="news__title section-title">НОВОСТИ И АКЦИИ</h2>
+            <h3 class="news__title section-title">НОВОСТИ И АКЦИИ</h3>
             <ul class="news__list">
-              <li class="news__item">
-                <img src="./img/news/camera.png" alt="camera" class="news__pic">
-                <div class="news__text">
-                  <div class="news__date">Декабрь 2019</div>
-                  <h3 class="news__discount">Снимем ваш клип на 50% дешевле</h3>
-                  <p class="news__description">В честь Новогодних прздников мы раздаем огромные скидки, успйте
+              <li class="news__item single-news">
+                <img src="./img/news/camera.png" alt="camera" class="single-news__pic">
+                <div class="single-news__text">
+                  <div class="single-news__date">Декабрь 2019</div>
+                  <h5 class="single-news__discount">Снимем ваш клип на 50% дешевле</h5>
+                  <p class="single-news__description">В честь Новогодних прздников мы раздаем огромные скидки, успйте
                     забронировать
                     даты.</p>
                 </div>
               </li>
-              <li class="news__item">
-                <img src="./img/news/wedding.png" alt="bride" class="news__pic">
-                <div class="news__text">
-                  <div class="news__date">Декабрь 2019</div>
-                  <h3 class="news__discount">Акция для молодоженов 30%</h3>
-                  <p class="news__description">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и
+              <li class="news__item single-news">
+                <img src="./img/news/wedding.png" alt="bride" class="single-news__pic">
+                <div class="single-news__text">
+                  <div class="single-news__date">Декабрь 2019</div>
+                  <h5 class="single-news__discount">Акция для молодоженов 30%</h5>
+                  <p class="single-news__description">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и
                     всех
                     благ!</p>
                 </div>
@@ -141,15 +143,15 @@
         </section>
         <section class="about">
           <div class="about__container container">
-            <img src="./img/content/cameraman.png" alt="" class="about__pic">
+         <!--  <img src="./img/content/cameraman.png" alt="" class="about__pic">-->
             <div class="about__content">
-              <h2 class="section-title about__title">О НАС</h2>
+              <h3 class="section-title about__title">О НАС</h3>
               <div class="about__text">
                 <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
                   абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
-                  выступлений в домашних условиях.</p>
+                   публичных выступлений в домашних условиях.</p>
               </div>
-              <a href="" class="btn">ПОДРОБНЕЕ</a>
+              <a href="" class="btn btn--small">ПОДРОБНЕЕ</a>
             </div>
           </div>
         </section>
@@ -157,48 +159,48 @@
     </div>
     <footer class="footer">
       <div class=" container footer__container">
-        <a href="/" class="logo">
-          <img src="./img/logo.png" alt="" class="logo__pic">
-        </a>
-        <nav class="menu menu__footer">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="/" class="menu__page">Главная</a>
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="" class="logo__pic">
+          </a>
+          <nav class="menu menu__footer">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="/" class="menu__page">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__page">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__page">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="networks">
+            <li class="networks__item">
+              <a href="" class="networks__link">
+                <img src="./img/networks/telegram.png" alt="telegram logo" class="networks__pic">
+              </a>
             </li>
-            <li class="menu__item">
-              <a href="" class="menu__page">Услуги</a>
+            <li class="networks__item">
+              <a href="" class="networks__link">
+                <img src="./img/networks/vk.png" alt="VK logo" class="networks__pic">
+              </a>
             </li>
-            <li class="menu__item">
-              <a href="" class="menu__page">Отзывы</a>
+            <li class="networks__item">
+              <a href="" class="networks__link">
+                <img src="./img/networks/f.png" alt="facebook logo" class="networks__pic">
+              </a>
+            </li>
+            <li class="networks__item">
+              <a href="" class="networks__link">
+                <img src="./img/networks/in.png" alt="instagram logo" class="networks__pic">
+              </a>
             </li>
           </ul>
-        </nav>
-        <ul class="networks">
-          <li class="networks__item networks__link--telegram">
-            <a href="" class="networks__link">
-              <img src="./img/networks/telegram.png" alt="telegram logo" class="networks__pic">
-            </a>
-          </li>
-          <li class="networks__item networks__link--vk">
-            <a href="" class="networks__link">
-              <img src="./img/networks/vk.png" alt="VK logo" class="networks__pic">
-            </a>
-          </li>
-          <li class="networks__item networks__link--facebook">
-            <a href="" class="networks__link">
-              <img src="./img/networks/f.png" alt="facebook logo" class="networks__pic">
-            </a>
-          </li>
-          <li class="networks__item networks__link--instagram">
-            <a href="" class="networks__link">
-              <img src="./img/networks/in.png" alt="instagram logo" class="networks__pic">
-            </a>
-          </li>
-        </ul>
-        <address class="contacts-footer">
-          <div class="contacts-footer__info">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="phone-footer">8 800 700 30 30 </a>
-        </address>
+          <address class="contacts-footer">
+            <div class="contacts-footer__info">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts-footer__phone">8 800 700 30 30 </a>
+          </address> 
       </div>
     </footer>
   </div>

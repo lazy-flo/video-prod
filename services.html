@@ -5,19 +5,148 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./main.css">
   <title>Services</title>
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper services-wrapper">
     <div class="wrapper-content">
-      <header class="header">
-        <div class="container">
+      <section class="top-line">
+        <div class="container top-line__container">
+          <header class="header">
+            <div class=" container header__container">
+              <a href="/" class="logo">
+                <img src="./img/logo.png" alt="company-logo" class="logo__pic">
+              </a>
+              <nav class="menu menu--top">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="/" class="menu__page">Главная</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__page">Услуги</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__page">Отзывы</a>
+                  </li>
+                </ul>
+              </nav>
+              <adress class="contacts">
+                <a href="tel:+78007003030" class="phone-number">8 800 700 30 30 </a>
+                <div class="contacts__workhours">График работы</div>
+              </adress>
+            </div>
+          </header>
+         <!-- <div class="text">-->
+            <h1 class="title title--left">УСЛУГИ</h1>
+          <!--</div>-->
+          <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="/" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--active">
+                  <a href="#" class="breadcrumbs__link">Услуги</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </section>
+      <main class="page-content">
+          <div class="page-content__container container">
+            <ul class="services">
+              <li class="services__item service">
+                <div class="service__img">
+                <img src="./img/services/girls.jpg" alt="girls" class="service__pic">
+              </div>
+                <div class="service__desc">
+                  <h3 class="service__title section-title section-title--dark">Съемки клипа</h3>
+                  <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
+                  <a href="" class="btn color--btn--light">ПОДРОБНЕЕ</a>
+                </div>
+              </li>
+              <li class="services__item service">
+                <div class="service__img">
+                <img src="./img/services/engineer.jpg" alt="girls" class="service__pic">
+              </div>
+                <div class="service__desc">
+                  <h3 class="service__title section-title section-title--dark">Съемка мероприятий</h3>
+                  <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
+                  <a href="" class="btn">ПОДРОБНЕЕ</a>
+                </div>
+              </li>            
+            </ul>
+            <div class="paginator paginator">
+              <div class="paginator__display">Страница 1 из 7</div>
+              <ul class="paginator__list">
+                <li class="paginator__item paginator__item--active"><a href="" class="paginator__link">1</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">2</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">3</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">4</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">5</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">6</a></li>
+                <li class="paginator__item"><a href="" class="paginator__link paginator__link--dark">7</a></li>
+              </ul>
+            </div>
+          </div>
+
+      </main>
+      <section class="inner-section inner-section--bg--grey">
+        <div class="inner-section__container container">
+          <h2 class="inner-section__title">Партнеры</h2>
+           <ul class="partners">
+             <li class="partners__item partners__item--divico">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/divico.png" alt="divico-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--DS">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/ds.png" alt="ds-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--park">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/park.png" alt="park-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--zvibes">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/zvibes.png" alt="zvibes-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--rosvideo">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/rosvideo.png" alt="rosvideo-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--zavod">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/zavod.png" alt="zavodmedia-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--pixel">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/pixel.png" alt="pixel-logo" class="partners__pic">
+               </a>
+             </li>
+             <li class="partners__item partners__item--expotv">
+               <a href="#" class="partners__link">
+                 <img src="./img/services/partners/expotv.png" alt="expotv-logo" class="partners__pic">
+               </a>
+             </li>             
+           </ul>           
+
+        </div>
+      </section>
+    </div>
+    <footer class="inner-footer">
+        <div class=" container footer__container footer__container--inner">
           <a href="/" class="logo">
-            <img src="./img/logo.png" alt="company-logo" class="logo__pic">
+            <img src="./img/logo.png" alt="" class="logo__pic">
           </a>
-          <nav class="menu">
+          <nav class="menu menu--centre">
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="/" class="menu__page">Главная</a>
@@ -30,29 +159,34 @@
               </li>
             </ul>
           </nav>
-          <adress class="contacts">
-            <a href="tel:+78007003030" class="phone-number">8 800 700 30 30 </a>
-            <div class="contacts__workhours">График работы</div>
-          </adress>
+          <ul class="networks">
+            <li class="networks__item networks__link--telegram">
+              <a href="" class="networks__link">
+                <img src="./img/networks/telegram.png" alt="telegram logo" class="networks__pic">
+              </a>
+            </li>
+            <li class="networks__item networks__link--vk">
+              <a href="" class="networks__link">
+                <img src="./img/networks/vk.png" alt="VK logo" class="networks__pic">
+              </a>
+            </li>
+            <li class="networks__item networks__link--facebook">
+              <a href="" class="networks__link">
+                <img src="./img/networks/f.png" alt="facebook logo" class="networks__pic">
+              </a>
+            </li>
+            <li class="networks__item networks__link--instagram">
+              <a href="" class="networks__link">
+                <img src="./img/networks/in.png" alt="instagram logo" class="networks__pic">
+              </a>
+            </li>
+          </ul>
+          <address class="contacts-footer">
+            <div class="contacts-footer__info">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts-footer__phone">8 800 700 30 30 </a>
+          </address>
         </div>
-      </header>
-      <section class="services">
-        <h1 class="services__title">УСЛУГИ</h1>
-        </h1>
-      </section>
-      <nav class="breadcrumbs">
-        <ul class="breadcrumbs__list">
-          <li class="breadcrumbs__item">
-            <a href="#" class="breadcrumbs__link">Главная</a>
-            <div class="bresdcrumbs__separator">/</div>
-          </li>
-          <li class="breadcrumbs__item">
-            <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Услуги</a>
-          </li>
-        </ul>
-
-      </nav>
-    </div>
+    </footer>
   </div>
 </body>
 

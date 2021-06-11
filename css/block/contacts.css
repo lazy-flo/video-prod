@@ -1,0 +1,18 @@
+.contacts {
+  vertical-align: middle;
+  padding-top: 5px;
+  /*margin-left: 238px;*/
+  font-size: 26px;
+  font-style: normal;
+  line-height: 35px;
+  text-align: right;
+ 
+}
+.contacts__workhours {
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #FF3D00;
+  margin-top: -6px;
+  
+}

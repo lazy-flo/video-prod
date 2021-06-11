@@ -1,0 +1,22 @@
+
+       .news__container {
+        margin-bottom: 146px;
+        
+      }
+      .news__list {
+        padding-left: 0;
+        margin-bottom: 52px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 51px;
+      }
+      .news__item {
+        /*display: inline-block;*/
+       /* width: 557px;*/
+        height: 394px;
+        margin-right: 22px;
+        flex: 1;
+      }
+      .news__item:last-child {
+        margin-right: 0;
+      }
