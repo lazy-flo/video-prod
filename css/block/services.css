@@ -10,6 +10,10 @@
   width: 40%;
   margin-right: 5%;
 }
+.service__pic {
+  display: block;
+  max-width: 100%;
+}
 .service__desc {
   flex: 1;
   padding: 13px;

@@ -12,3 +12,7 @@
 .networks__item:hover {
   filter: brightness(2);
 }
+.networks__pic {
+  display: block;
+  /*max-width: 100%;*/
+}

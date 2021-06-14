@@ -3,20 +3,21 @@
 
   padding-top: 132px;
   padding-bottom: 233px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .slogan__title {
   margin-bottom: 17px;
+text-align: center;
+  
 }
   .slogan__text {
     font-size: 18px;
     line-height: 20px;
-    text-align: center;
     /*margin-top: 17px;*/
     margin-bottom: 42px;
     margin-top: 0;
-  }
-  .slogan__btn-wrapper {
-    /*text-align: center;*/
-    display: flex;
-    justify-content: center;
   }

@@ -1,10 +1,7 @@
 .title {
   font-weight: 800;
   font-size: 72px;
-  text-align: center;
   line-height: 98px;
-  margin-bottom: 17px;
+  /*margin-bottom: 17px;*/
 }
-.title--left {
-  text-align: left;
-}
+

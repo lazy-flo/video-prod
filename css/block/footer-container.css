@@ -6,3 +6,7 @@
   justify-content: space-between;
   padding: 40px 0;
 }
+
+.footer__container--inner {
+  border-top: none;
+}
