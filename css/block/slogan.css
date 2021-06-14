@@ -1,15 +1,19 @@
 .slogan__container {
   /*max-width: 776px;*/
-  width: 41%;
+
   padding-top: 132px;
   padding-bottom: 233px;
+}
+.slogan__title {
+  margin-bottom: 17px;
 }
   .slogan__text {
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    margin-top: 17px;
+    /*margin-top: 17px;*/
     margin-bottom: 42px;
+    margin-top: 0;
   }
   .slogan__btn-wrapper {
     /*text-align: center;*/

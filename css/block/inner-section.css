@@ -3,12 +3,12 @@
 
 }
 .inner-section__container {
-  padding: 93px 9px 112px;
+  padding: 93px 0 112px;
 }
 .inner-section__title {
   color: black;
 font-weight: bold;
 font-size: 48px;
 line-height: 65px;
-margin-bottom: 80px;
+margin-bottom: 60px;
 }

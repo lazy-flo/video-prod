@@ -39,6 +39,8 @@
     margin-bottom: 40px;
     line-height: 27px;
   }
-  .page-content {
-    color: #E5E5E5;
+
+  .about__btn {
+    padding: 18px 40px;
   }
+  

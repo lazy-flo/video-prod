@@ -14,15 +14,12 @@
     background:#FF3D00;
     border-color: #FF3D00;
   }
-  .color--btn--light {
+  .btn--color--light {
     background: white;
     color: #FF5500;
     border-color: #FF5500;
   }
-  .color--btn--light:hover {
+  .btn--color--light:hover {
     color: #fff;
     background-color: #FF5500; 
-  }
-  .btn--small {
-    padding: 18px 40px;
   }

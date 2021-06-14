@@ -22,15 +22,15 @@
   font-size: 32px;
   line-height: 44px;
   color: black;
-  margin-bottom: 0;
+  margin-bottom: 17px;
   }
 
 .offer__features {
-  max-height: 100px;
   font-size: 16px;
   color: #666666;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .offer__features b {
   color: black;
@@ -39,13 +39,16 @@
  /* display: inline-block;*/
   width: calc(100% / 2 - 30px);
   /*margin-right: 10px;*/
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 .offer__description {
   max-width: 330px;
   font-size: 14px;
   line-height: 22px;
   color: #666666;
-  margin: 9px 0px 26px;
+  margin-bottom: 26px;
+  margin-top: 0;
   }
   .offer-wrapper {
     display: flex;
