@@ -7,7 +7,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url(../../img/hello/bg-hello.png) center no-repeat;
+  background: url(../../img/hello/rec.png) center no-repeat, url(../../img/hello/bg-hello.png) center no-repeat;
   }
 
 

@@ -1,6 +1,7 @@
 .review {
   background: #F4F5F5;
-  min-height: 542px;
+  /*min-height: 542px;*/
+  min-width: 557px;
   margin-bottom: 17px;
   display: inline-flex;
   flex-direction: column;
@@ -28,7 +29,7 @@
 
 .review__name:after {
   content: "";
-  background: url(./img/reviews/vk-blue-logo.png);
+  background: url(../../img/reviews/vk-blue-logo.png);
   width: 30px; 
   height: 30px; 
   display: inline-block;
@@ -46,12 +47,12 @@
 .review__tag {
   background: #F2D4C9;
 }
-.review__content {
+/*.review__content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-}
+}*/
 .review__title {
 font-weight: bold;
 font-size: 30px;
