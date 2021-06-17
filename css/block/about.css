@@ -6,11 +6,11 @@
   text-align: right;
   display: flex;
   }
-  .about__pic {
+  /*.about__pic {
     position: absolute;
     top: 0;
     left: 0;
-  }
+  }*/
   .about__container:before {
     content: "";
     width: 490px;

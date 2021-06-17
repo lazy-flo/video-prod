@@ -21,5 +21,5 @@
   display: none;
 }
 .breadcrumbs__item--active .breadcrumbs__link {
-  text-decoration: none;
+  font-weight: 800;
 }

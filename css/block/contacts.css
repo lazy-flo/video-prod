@@ -4,15 +4,68 @@
   /*margin-left: 238px;*/
   font-size: 26px;
   font-style: normal;
-  line-height: 35px;
+  /*line-height: 35px;*/
   text-align: right;
  
 }
-.contacts__workhours {
+.contacts__link {
+  display: block;
   font-size: 13px;
   line-height: 20px;
   text-decoration: underline;
   color: #FF3D00;
   margin-top: -6px;
   
+}
+.contacts__workhours {
+  position: relative;
+}
+.contacts__item {
+font-weight: 600;
+font-size: 13px;
+color: #1E1F20;
+}
+.contacts__drop {
+  max-width: 160px;
+  min-height: 60px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 19px;
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+  opacity: 0;
+  margin-top: 9px;
+  transition: opacity 0.5s;
+}
+.contacts__drop:before {
+  content: "";
+  display: block;
+  height: 9px;
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+}
+.contacts__drop:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-width: 0;
+  border-left-width: 12px;
+  border-right-width: 12px;
+  border-bottom-color: #fff;
+  position: absolute;
+  bottom: 100%;
+  right: 25%;
+}
+.contacts__drop:before {
+  content: "";
+  display: block;
+  height: 9px;
+}
+.contacts__workhours:hover .contacts__drop {
+  opacity: 0.8;
+  pointer-events: visible;
+ 
 }

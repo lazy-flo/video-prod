@@ -26,5 +26,29 @@
 @import url('./css/block/top-line.css');
 @import url('./css/block/page-content.css');
 @import url('./css/block/inner-section.css');
+@import url('./css/block/tag.css');
+@import url('./css/block/review.css');
+@import url('./css/block/reviews.css');
+@import url('./css/block/avatar.css');
+@import url('./css/block/coupon.css');
+@import url('./css/block/form.css');
+@import url('./css/block/controls.css');
+@import url('./css/block/hello.css');
 
+@keyframes videoRotate {
+  0% {
+    opacity: 0;
+    transform: scale(0.1) rotate(35deg);
+  }
 
+   45% {
+    transform: rotate(-10deg)
+  }
+  75% {
+    transform: rotate(2deg)
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,17 @@
+.coupon {
+  background: #373737 url(../../img/reviews/cupon/party.png) right bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.coupon__title {
+  font-weight: bold;
+  font-size: 48px;
+}
+.coupon__title span {
+  color: #ff3d00;
+}
+.cupon__content {
+  max-width: 60%;
+} 

@@ -1,0 +1,12 @@
+.tag {
+  background: #E7E7E7;
+  padding: 10px 25px;
+  border-radius: 35px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #303030;
+  display: inline-block;
+}
+.tag--size--small {
+  padding: 9px 20px;
+}

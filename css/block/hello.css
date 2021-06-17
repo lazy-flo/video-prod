@@ -1,0 +1,30 @@
+.hello {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/hello/bg-hello.png) center no-repeat;
+  }
+
+
+.hello__enter {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: videoRotate; 
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0, 0, 0.57, 0.99);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hello__logo {
+  display: block;
+  margin-bottom: 38px;
+}
