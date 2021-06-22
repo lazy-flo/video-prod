@@ -21,3 +21,7 @@ color: #FF3D00;
 .menu__item:last-child {
   margin-right: 0;
 }
+
+.menu__page--active {
+  color: #FF3D00
+}

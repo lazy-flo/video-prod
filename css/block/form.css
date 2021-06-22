@@ -12,17 +12,20 @@
   border: none;
   padding: 19px 30px;
   font-size: 18px;
+  }
 
-}
-.form__input:last-child {
+  .form__input:last-child {
   margin-right: 0;
 }
-.form__input::placeholder {
+.form__input:placeholder {
   color: #666666;
 }
 .form__input--textarea {
   height: 232px;
 }
+.form__input:focus {
+  outline: 1px solid #CCCCCC;
+  }
 .form__controls {
   display: flex;
   margin-bottom: 33px;
