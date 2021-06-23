@@ -11,7 +11,8 @@
   height: 95px;
   align-items: center;
   justify-content: center;
-  filter: grayscale(100%);  
+  filter: grayscale(100%); 
+  transition: filter 0.2s; 
 }
 .partners__link:hover {
   filter: grayscale(0);

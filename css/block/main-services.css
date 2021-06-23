@@ -8,10 +8,8 @@
   justify-content: space-between;
 }
 .main-services__item {
-  /*max-width: 362px;*/
   width: calc(100% / 3 - 18px);
-  /*min-height: 476px;*/
-
+ transition: border 0.2s;
 }
 .main-services__item:hover {
   border: 5px solid #CCCCCC;
